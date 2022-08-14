@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chalk_head",
+        "1": "chalk_top"
+      },
+      "name": "default"
+    }
+  }
+}

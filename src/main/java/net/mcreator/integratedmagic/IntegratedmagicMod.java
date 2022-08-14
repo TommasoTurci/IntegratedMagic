@@ -27,6 +27,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.integratedmagic.init.IntegratedmagicModItems;
+import net.mcreator.integratedmagic.init.IntegratedmagicModFeatures;
+import net.mcreator.integratedmagic.init.IntegratedmagicModBlocks;
+import net.mcreator.integratedmagic.init.IntegratedmagicModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,8 +47,12 @@ public class IntegratedmagicMod {
 	public IntegratedmagicMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		IntegratedmagicModBlocks.REGISTRY.register(bus);
 		IntegratedmagicModItems.REGISTRY.register(bus);
+
+		IntegratedmagicModFeatures.REGISTRY.register(bus);
+
+		IntegratedmagicModBiomes.REGISTRY.register(bus);
 
 	}
 

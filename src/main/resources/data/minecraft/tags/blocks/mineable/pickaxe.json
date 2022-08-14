@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "integratedmagic:chalk_body",
+    "integratedmagic:chalk_top",
+    "integratedmagic:chalk_block"
+  ]
+}

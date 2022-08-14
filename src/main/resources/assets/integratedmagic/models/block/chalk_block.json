@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "integratedmagic:blocks/chalk_block",
+    "up": "integratedmagic:blocks/chalk_block",
+    "north": "integratedmagic:blocks/chalk_block",
+    "east": "integratedmagic:blocks/chalk_block",
+    "south": "integratedmagic:blocks/chalk_block",
+    "west": "integratedmagic:blocks/chalk_block",
+    "particle": "integratedmagic:blocks/chalk_block"
+  }
+}

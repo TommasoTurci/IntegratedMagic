@@ -7,18 +7,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_item"
+    },
+    {
+      "name": "ChalkBody",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_body",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkTop",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_top",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_block",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "SmallChalk",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_chalk",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkCave",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_cave",
+      "path": "~/Biomi-Risorse/Chalk"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.integratedmagic.test_item": "Test Item"
+      "block.integratedmagic.chalk_body": "Chalk Crystal Body",
+      "block.integratedmagic.small_chalk": "Chalk Shard",
+      "block.integratedmagic.chalk_block": "Chalk Block",
+      "item.integratedmagic.test_item": "Test Item",
+      "block.integratedmagic.chalk_top": "Chalk Crystal Top",
+      "biome.integratedmagic.chalk_cave": "Chalk Cave"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Biomi-Risorse",
+        "children": [
+          {
+            "name": "Chalk",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "integratedmagic",

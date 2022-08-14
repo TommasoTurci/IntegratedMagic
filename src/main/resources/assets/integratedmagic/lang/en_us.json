@@ -1,3 +1,8 @@
 {
-  "item.integratedmagic.test_item": "Test Item"
+  "block.integratedmagic.chalk_body": "Chalk Crystal Body",
+  "block.integratedmagic.small_chalk": "Chalk Shard",
+  "block.integratedmagic.chalk_block": "Chalk Block",
+  "item.integratedmagic.test_item": "Test Item",
+  "block.integratedmagic.chalk_top": "Chalk Crystal Top",
+  "biome.integratedmagic.chalk_cave": "Chalk Cave"
 }
