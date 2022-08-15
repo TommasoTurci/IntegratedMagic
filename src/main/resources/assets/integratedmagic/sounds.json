@@ -1,0 +1,42 @@
+{
+  "vortexconjuration": {
+    "category": "master",
+    "subtitle": "subtitles.vortexconjuration",
+    "sounds": [
+      {
+        "name": "integratedmagic:mag_conjure_fire",
+        "stream": false
+      }
+    ]
+  },
+  "vortex_dispel": {
+    "category": "master",
+    "subtitle": "subtitles.vortex_dispel",
+    "sounds": [
+      {
+        "name": "integratedmagic:vortex_dispel",
+        "stream": false
+      }
+    ]
+  },
+  "fulgor_cast": {
+    "category": "master",
+    "subtitle": "subtitles.fulgor_cast",
+    "sounds": [
+      {
+        "name": "integratedmagic:fulgor_cast",
+        "stream": false
+      }
+    ]
+  },
+  "fulgor_impact": {
+    "category": "master",
+    "subtitle": "subtitles.fulgor_impact",
+    "sounds": [
+      {
+        "name": "integratedmagic:fulgor_impact",
+        "stream": false
+      }
+    ]
+  }
+}

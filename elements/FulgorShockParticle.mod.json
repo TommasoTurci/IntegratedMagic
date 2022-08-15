@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "particle",
+  "definition": {
+    "texture": "fulgurparticle2.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 4.0,
+    "speedFactor": 1.0,
+    "gravity": 0.0,
+    "maxAge": 20,
+    "maxAgeDiff": 10,
+    "angularVelocity": 10.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

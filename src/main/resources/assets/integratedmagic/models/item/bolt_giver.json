@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "integratedmagic:items/popi_popi"
+    "layer0": "integratedmagic:items/holyicon"
   }
 }

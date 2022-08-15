@@ -26,6 +26,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.integratedmagic.init.IntegratedmagicModParticleTypes;
+import net.mcreator.integratedmagic.init.IntegratedmagicModMobEffects;
 import net.mcreator.integratedmagic.init.IntegratedmagicModItems;
 
 import java.util.function.Supplier;
@@ -47,6 +49,9 @@ public class IntegratedmagicMod {
 
 		IntegratedmagicModItems.REGISTRY.register(bus);
 
+		IntegratedmagicModMobEffects.REGISTRY.register(bus);
+
+		IntegratedmagicModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

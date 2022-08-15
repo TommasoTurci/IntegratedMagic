@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Ethereal Dash",
+    "icon": "vortexparticle.png",
+    "color": {
+      "value": -16711732,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EtherealDashPotionEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "EtherealDashPotionEffectEffectExpires"
+    }
+  }
+}
