@@ -1,0 +1,9 @@
+{
+  "parent": "integratedmagic:custom/chalk_head",
+  "textures": {
+    "all": "integratedmagic:blocks/chalk_head",
+    "particle": "integratedmagic:blocks/chalk_head",
+    "0": "integratedmagic:blocks/chalk_head",
+    "1": "integratedmagic:blocks/chalk_top"
+  }
+}

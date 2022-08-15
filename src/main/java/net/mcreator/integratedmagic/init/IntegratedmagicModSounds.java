@@ -22,9 +22,9 @@ public class IntegratedmagicModSounds {
 				new SoundEvent(new ResourceLocation("integratedmagic", "vortexconjuration")));
 		REGISTRY.put(new ResourceLocation("integratedmagic", "vortex_dispel"),
 				new SoundEvent(new ResourceLocation("integratedmagic", "vortex_dispel")));
-		REGISTRY.put(new ResourceLocation("integratedmagic", "fulgor_cast"), new SoundEvent(new ResourceLocation("integratedmagic", "fulgor_cast")));
 		REGISTRY.put(new ResourceLocation("integratedmagic", "fulgor_impact"),
 				new SoundEvent(new ResourceLocation("integratedmagic", "fulgor_impact")));
+		REGISTRY.put(new ResourceLocation("integratedmagic", "fulgor_cast"), new SoundEvent(new ResourceLocation("integratedmagic", "fulgor_cast")));
 	}
 
 	@SubscribeEvent

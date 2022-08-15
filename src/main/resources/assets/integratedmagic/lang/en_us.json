@@ -1,12 +1,8 @@
 {
   "subtitles.fulgor_impact": "Fulgor spell impact",
-  "item.integratedmagic.wand": "Wand",
   "subtitles.fulgor_cast": "Fulgor spell cast",
   "subtitles.vortex_dispel": "Vortex magic dispels",
-  "effect.integratedmagic.ethereal_dash_potion_effect": "Ethereal Dash",
   "subtitles.vortexconjuration": "Vortex spell cast",
   "subtitles.vortexcazzinsound": "Il cazzino",
-  "item.integratedmagic.ethereal_dash_giver": "Ethereal Dash Giver",
-  "item.integratedmagic.bolt_giver": "Bolt Giver",
-  "item.integratedmagic.cursed_key": "Cursed Key"
+  "item.integratedmagic.test_item": "Test Item"
 }

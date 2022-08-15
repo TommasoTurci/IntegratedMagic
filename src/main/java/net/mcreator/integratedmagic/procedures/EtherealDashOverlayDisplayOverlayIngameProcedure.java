@@ -1,9 +1,8 @@
 package net.mcreator.integratedmagic.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.integratedmagic.init.IntegratedmagicModMobEffects;
+import javax.annotation.Nullable;
 
 public class EtherealDashOverlayDisplayOverlayIngameProcedure {
 	public static boolean execute(Entity entity) {

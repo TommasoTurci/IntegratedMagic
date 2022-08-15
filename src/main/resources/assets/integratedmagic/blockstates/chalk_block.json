@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "integratedmagic:block/chalk_block"
+    }
+  }
+}

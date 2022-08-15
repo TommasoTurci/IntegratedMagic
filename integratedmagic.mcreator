@@ -1,15 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "VortexParticle",
-      "type": "particle",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vortex_particle",
-      "path": "~/Magic System/EtheralDash"
-    },
-    {
       "name": "EtherealDashGiverRightclicked",
       "type": "procedure",
       "sortid": 3,
@@ -24,6 +15,71 @@
           }
         ]
       },
+      "path": "~/Magic System/EtheralDash"
+    },
+    {
+      "name": "VortexParticle",
+      "type": "particle",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vortex_particle",
+      "path": "~/Magic System/EtheralDash"
+    },
+    {
+      "name": "Wand",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "path": "~/Magic System"
+    },
+    {
+      "name": "Bolt",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/Bolt"
+    },
+    {
+      "name": "EtherealDashPotionEffect",
+      "type": "potioneffect",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_dash_potion_effect",
+      "path": "~/Magic System/EtheralDash"
+    },
+    {
+      "name": "EtherealDashOverlay",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_dash_overlay",
       "path": "~/Magic System/EtheralDash"
     },
     {
@@ -69,63 +125,23 @@
       "path": "~/Magic System/EtheralDash"
     },
     {
-      "name": "WandRightclicked",
+      "name": "FulgorShockParticle",
+      "type": "particle",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fulgor_shock_particle",
+      "path": "~/Magic System/Bolt"
+    },
+    {
+      "name": "EtherealDashOverlayDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wand_rightclicked",
+      "registry_name": "ethereal_dash_overlay_display_overlay_ingame",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Magic System"
-    },
-    {
-      "name": "Wand",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wand",
-      "path": "~/Magic System"
-    },
-    {
-      "name": "CursedKey",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cursed_key"
-    },
-    {
-      "name": "EtherealDashPotionEffectOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ethereal_dash_potion_effect_on_effect_active_tick",
-      "metadata": {
+        "return_type": "logic",
         "dependencies": [
           {
             "name": "entity",
@@ -134,6 +150,23 @@
         ]
       },
       "path": "~/Magic System/EtheralDash"
+    },
+    {
+      "name": "BoltGiverRightclicked",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bolt_giver_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Magic System/Bolt"
     },
     {
       "name": "EtherealDashPotionEffectEffectExpires",
@@ -169,40 +202,13 @@
       "path": "~/Magic System/EtheralDash"
     },
     {
-      "name": "EtherealDashPotionEffect",
-      "type": "potioneffect",
-      "sortid": 6,
+      "name": "FulgorParticle",
+      "type": "particle",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ethereal_dash_potion_effect",
-      "path": "~/Magic System/EtheralDash"
-    },
-    {
-      "name": "EtherealDashOverlayDisplayOverlayIngame",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ethereal_dash_overlay_display_overlay_ingame",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Magic System/EtheralDash"
-    },
-    {
-      "name": "EtherealDashOverlay",
-      "type": "overlay",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ethereal_dash_overlay",
-      "path": "~/Magic System/EtheralDash"
+      "registry_name": "fulgor_particle",
+      "path": "~/Magic System/Bolt"
     },
     {
       "name": "BoltGiver",
@@ -214,49 +220,26 @@
       "path": "~/Magic System/Bolt"
     },
     {
-      "name": "BoltGiverRightclicked",
-      "type": "procedure",
-      "sortid": 10,
+      "name": "CursedKey",
+      "type": "item",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bolt_giver_rightclicked",
+      "registry_name": "cursed_key"
+    },
+    {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Magic System/Bolt"
-    },
-    {
-      "name": "FulgorParticle",
-      "type": "particle",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fulgor_particle",
-      "path": "~/Magic System/Bolt"
-    },
-    {
-      "name": "FulgorShockParticle",
-      "type": "particle",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fulgor_shock_particle",
-      "path": "~/Magic System/Bolt"
-    },
-    {
-      "name": "Bolt",
-      "type": "procedure",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bolt",
-      "metadata": {
-        "dependencies": [
+          },
           {
             "name": "x",
             "type": "number"
@@ -275,12 +258,74 @@
           }
         ]
       },
-      "path": "~/Magic System/Bolt"
+      "path": "~/Magic System"
+    },
+    {
+      "name": "EtherealDashPotionEffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_dash_potion_effect_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Magic System/EtheralDash"
+    },
+    {
+      "name": "ChalkBody",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_body",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_block",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "SmallChalk",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_chalk",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkCave",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_cave",
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "ChalkTop",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalk_top",
+      "path": "~/Biomi-Risorse/Chalk"
     }
   ],
   "variable_elements": [
     {
-      "name": "targetX",
+      "name": "targetZ",
       "type": "number",
       "scope": "global",
       "value": "0"
@@ -292,7 +337,7 @@
       "value": "0"
     },
     {
-      "name": "targetZ",
+      "name": "targetX",
       "type": "number",
       "scope": "global",
       "value": "0"
@@ -316,39 +361,48 @@
       "subtitle": "Vortex magic dispels"
     },
     {
-      "name": "fulgor_cast",
-      "files": [
-        "fulgor_cast"
-      ],
-      "category": "master",
-      "subtitle": "Fulgor spell cast"
-    },
-    {
       "name": "fulgor_impact",
       "files": [
         "fulgor_impact"
       ],
       "category": "master",
       "subtitle": "Fulgor spell impact"
+    },
+    {
+      "name": "fulgor_cast",
+      "files": [
+        "fulgor_cast"
+      ],
+      "category": "master",
+      "subtitle": "Fulgor spell cast"
     }
   ],
   "language_map": {
     "en_us": {
       "subtitles.fulgor_impact": "Fulgor spell impact",
-      "item.integratedmagic.wand": "Wand",
       "subtitles.fulgor_cast": "Fulgor spell cast",
       "subtitles.vortex_dispel": "Vortex magic dispels",
-      "effect.integratedmagic.ethereal_dash_potion_effect": "Ethereal Dash",
       "subtitles.vortexconjuration": "Vortex spell cast",
       "subtitles.vortexcazzinsound": "Il cazzino",
-      "item.integratedmagic.ethereal_dash_giver": "Ethereal Dash Giver",
-      "item.integratedmagic.bolt_giver": "Bolt Giver",
-      "item.integratedmagic.cursed_key": "Cursed Key"
+      "item.integratedmagic.test_item": "Test Item"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "Biomi-Risorse",
+        "children": [
+          {
+            "name": "Chalk",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Accessories",
+        "children": []
+      },
       {
         "name": "Magic System",
         "children": [
@@ -361,10 +415,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Accessories",
-        "children": []
       }
     ]
   },
@@ -382,7 +432,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.integratedmagic",
     "lockBaseModFiles": false
   },

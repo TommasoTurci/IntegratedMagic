@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chalk_body"
+      },
+      "name": "default"
+    }
+  }
+}

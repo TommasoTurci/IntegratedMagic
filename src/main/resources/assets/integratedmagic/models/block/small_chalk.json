@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "integratedmagic:blocks/budding_chalk",
+    "particle": "integratedmagic:blocks/budding_chalk"
+  }
+}
