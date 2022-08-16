@@ -20,4 +20,12 @@ public class IntegratedmagicModParticleTypes {
 	public static final RegistryObject<ParticleType<?>> FULGOR_PARTICLE = REGISTRY.register("fulgor_particle", () -> new SimpleParticleType(true));
 	public static final RegistryObject<ParticleType<?>> FULGOR_SHOCK_PARTICLE = REGISTRY.register("fulgor_shock_particle",
 			() -> new SimpleParticleType(true));
+	public static final RegistryObject<ParticleType<?>> PRECISE_STRIKES_1_PARTICLE = REGISTRY.register("precise_strikes_1_particle",
+			() -> new SimpleParticleType(false));
+	public static final RegistryObject<ParticleType<?>> PRECISE_STRIKES_PARTICLE_2 = REGISTRY.register("precise_strikes_particle_2",
+			() -> new SimpleParticleType(false));
+	public static final RegistryObject<ParticleType<?>> PRECISE_STRIKES_PARTICLE_3 = REGISTRY.register("precise_strikes_particle_3",
+			() -> new SimpleParticleType(false));
+	public static final RegistryObject<ParticleType<?>> PRECISE_STRIKES_PARTICLE_4 = REGISTRY.register("precise_strikes_particle_4",
+			() -> new SimpleParticleType(false));
 }

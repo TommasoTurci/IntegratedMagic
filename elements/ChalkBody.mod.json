@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "chalk_body:default",
-    "rotationMode": 2,
+    "rotationMode": 4,
     "emissiveRendering": true,
     "displayFluidOverlay": true,
     "itemTexture": "",

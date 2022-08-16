@@ -13,6 +13,10 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.integratedmagic.client.particle.VortexParticleParticle;
+import net.mcreator.integratedmagic.client.particle.PreciseStrikesParticle4Particle;
+import net.mcreator.integratedmagic.client.particle.PreciseStrikesParticle3Particle;
+import net.mcreator.integratedmagic.client.particle.PreciseStrikesParticle2Particle;
+import net.mcreator.integratedmagic.client.particle.PreciseStrikes1ParticleParticle;
 import net.mcreator.integratedmagic.client.particle.FulgorShockParticleParticle;
 import net.mcreator.integratedmagic.client.particle.FulgorParticleParticle;
 
@@ -26,5 +30,13 @@ public class IntegratedmagicModParticles {
 				FulgorParticleParticle::provider);
 		Minecraft.getInstance().particleEngine.register((SimpleParticleType) IntegratedmagicModParticleTypes.FULGOR_SHOCK_PARTICLE.get(),
 				FulgorShockParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) IntegratedmagicModParticleTypes.PRECISE_STRIKES_1_PARTICLE.get(),
+				PreciseStrikes1ParticleParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) IntegratedmagicModParticleTypes.PRECISE_STRIKES_PARTICLE_2.get(),
+				PreciseStrikesParticle2Particle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) IntegratedmagicModParticleTypes.PRECISE_STRIKES_PARTICLE_3.get(),
+				PreciseStrikesParticle3Particle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) IntegratedmagicModParticleTypes.PRECISE_STRIKES_PARTICLE_4.get(),
+				PreciseStrikesParticle4Particle::provider);
 	}
 }

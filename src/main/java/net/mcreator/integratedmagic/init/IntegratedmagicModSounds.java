@@ -25,6 +25,7 @@ public class IntegratedmagicModSounds {
 		REGISTRY.put(new ResourceLocation("integratedmagic", "fulgor_impact"),
 				new SoundEvent(new ResourceLocation("integratedmagic", "fulgor_impact")));
 		REGISTRY.put(new ResourceLocation("integratedmagic", "fulgor_cast"), new SoundEvent(new ResourceLocation("integratedmagic", "fulgor_cast")));
+		REGISTRY.put(new ResourceLocation("integratedmagic", "ordo_impact"), new SoundEvent(new ResourceLocation("integratedmagic", "ordo_impact")));
 	}
 
 	@SubscribeEvent

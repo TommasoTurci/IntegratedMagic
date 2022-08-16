@@ -225,7 +225,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cursed_key"
+      "registry_name": "cursed_key",
+      "path": "~/Accessories"
     },
     {
       "name": "WandRightclicked",
@@ -321,6 +322,290 @@
       "locked_code": false,
       "registry_name": "chalk_top",
       "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "SmallChalkBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_chalk_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "SmallChalkNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_chalk_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomi-Risorse/Chalk"
+    },
+    {
+      "name": "PreciseStrikes1Particle",
+      "type": "particle",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_1_particle",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikesParticle2",
+      "type": "particle",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_particle_2",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikesParticle3",
+      "type": "particle",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_particle_3",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikesParticle4",
+      "type": "particle",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_particle_4",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes1OnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_1_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes1",
+      "type": "potioneffect",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_1",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikesChecker",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_checker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes2",
+      "type": "potioneffect",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_2",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes2OnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_2_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes3OnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_3_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes4OnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_4_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes3",
+      "type": "potioneffect",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_3",
+      "path": "~/Magic System/PreciseStrikes"
+    },
+    {
+      "name": "PreciseStrikes4",
+      "type": "potioneffect",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "precise_strikes_4",
+      "path": "~/Magic System/PreciseStrikes"
     }
   ],
   "variable_elements": [
@@ -375,16 +660,39 @@
       ],
       "category": "master",
       "subtitle": "Fulgor spell cast"
+    },
+    {
+      "name": "ordo_impact",
+      "files": [
+        "ordo_impact"
+      ],
+      "category": "master",
+      "subtitle": "Ordo spell impact"
     }
   ],
   "language_map": {
     "en_us": {
+      "effect.integratedmagic.precise_strikes_2": "Targeted - 2",
+      "effect.integratedmagic.precise_strikes_1": "Targeted - 1",
+      "block.integratedmagic.chalk_top": "Chalk Crystal Top",
+      "item.integratedmagic.test_item": "Test Item",
+      "item.integratedmagic.bolt_giver": "Bolt Giver",
+      "subtitles.ordo_impact": "Ordo spell impact",
       "subtitles.fulgor_impact": "Fulgor spell impact",
+      "item.integratedmagic.wand": "Wand",
       "subtitles.fulgor_cast": "Fulgor spell cast",
+      "block.integratedmagic.small_chalk": "Chalk Shard",
+      "block.integratedmagic.chalk_body": "Chalk Crystal Body",
       "subtitles.vortex_dispel": "Vortex magic dispels",
+      "effect.integratedmagic.precise_strikes_4": "Targeted - 4",
+      "effect.integratedmagic.ethereal_dash_potion_effect": "Ethereal Dash",
+      "effect.integratedmagic.precise_strikes_3": "Targeted - 3",
       "subtitles.vortexconjuration": "Vortex spell cast",
+      "block.integratedmagic.chalk_block": "Chalk Block",
+      "item.integratedmagic.ethereal_dash_giver": "Ethereal Dash Giver",
       "subtitles.vortexcazzinsound": "Il cazzino",
-      "item.integratedmagic.test_item": "Test Item"
+      "biome.integratedmagic.chalk_cave": "Chalk Cave",
+      "item.integratedmagic.cursed_key": "Cursed Key"
     }
   },
   "foldersRoot": {
@@ -412,6 +720,10 @@
           },
           {
             "name": "Bolt",
+            "children": []
+          },
+          {
+            "name": "PreciseStrikes",
             "children": []
           }
         ]

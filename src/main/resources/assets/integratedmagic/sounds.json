@@ -38,5 +38,15 @@
         "stream": false
       }
     ]
+  },
+  "ordo_impact": {
+    "category": "master",
+    "subtitle": "subtitles.ordo_impact",
+    "sounds": [
+      {
+        "name": "integratedmagic:ordo_impact",
+        "stream": false
+      }
+    ]
   }
 }
