@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.integratedmagic.item.WandItem;
 import net.mcreator.integratedmagic.item.EtherealDashGiverItem;
+import net.mcreator.integratedmagic.item.EldenScrapItem;
 import net.mcreator.integratedmagic.item.CursedKeyItem;
 import net.mcreator.integratedmagic.item.BoltGiverItem;
 import net.mcreator.integratedmagic.IntegratedmagicMod;
@@ -29,6 +30,7 @@ public class IntegratedmagicModItems {
 	public static final RegistryObject<Item> CURSED_KEY = REGISTRY.register("cursed_key", () -> new CursedKeyItem());
 	public static final RegistryObject<Item> SMALL_CHALK = block(IntegratedmagicModBlocks.SMALL_CHALK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BOLT_GIVER = REGISTRY.register("bolt_giver", () -> new BoltGiverItem());
+	public static final RegistryObject<Item> ELDEN_SCRAP = REGISTRY.register("elden_scrap", () -> new EldenScrapItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
